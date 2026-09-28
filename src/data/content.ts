@@ -9,8 +9,8 @@
   ------------------------------------------------------------------ */
 
 export const CONTACT = {
-  telegram: "https://t.me/samirTOcreator",
-  github: "https://github.com/samirMontage/SamirthePORTFOLIO",
+  telegram: "https://t.me/samirrcc",
+  github: "",
 };
 
 /* Пустая строка = файлы берутся из public/ (для загрузки на хостинг) */
