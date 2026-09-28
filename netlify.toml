@@ -1,0 +1,11 @@
+# Настройки для Netlify.
+# Netlify сам соберёт сайт и опубликует готовую папку dist.
+# Без сборки браузер получает исходный index.html со ссылкой на /src/main.tsx,
+# не может его выполнить и показывает белый экран.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
